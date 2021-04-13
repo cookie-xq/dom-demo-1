@@ -1,0 +1,12 @@
+//document.createElement('div')
+const div = dom.create("<td>newDiv</td>")
+console.log(div)
+dom.after(test, div)
+const div3 = dom.create('<div id="parent"></div>')
+dom.wrap(test, div3)
+
+const nodes = dom.empty(window.empty)
+console.log(nodes)
+
+dom.attr(test,'title','Hi,I am fancy')
+dom.attr(test,'title')
